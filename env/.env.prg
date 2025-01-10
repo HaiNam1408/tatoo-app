@@ -1,0 +1,6 @@
+FLAVOR=PRG
+PACKAGE_NAME=com.examle
+BUNDLE_ID=com.examle
+APPLE_TEAM_ID=LTMSEXQEAR
+APP_NAME=[PRG]
+API_URL="https://prg.com"

@@ -1,0 +1,486 @@
+{
+  "daily": [
+    {
+      "id": 1,
+      "time_start": "09:00",
+      "time_end": "10:00",
+      "title": "Haircut Session",
+      "content": "Haircut appointment with stylist A.",
+      "is_important": true,
+      "price": 150000,
+      "deposit": 50000,
+      "name_customer": "Alice Johnson",
+      "phone": "0987654321",
+      "is_done": false,
+      "authId": 1,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T09:00:00Z",
+      "update_at": "2024-10-18T09:30:00Z",
+      "staff": {
+        "id": 1,
+        "fullname": "Stylist A"
+      }
+    },
+    {
+      "id": 2,
+      "time_start": "11:00",
+      "time_end": "12:00",
+      "title": "Consultation",
+      "content": "Initial consultation for new skincare routine.",
+      "is_important": true,
+      "price": 200000,
+      "deposit": 60000,
+      "name_customer": "Mark Lee",
+      "phone": "0123456789",
+      "is_done": false,
+      "authId": 2,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T11:00:00Z",
+      "update_at": "2024-10-18T11:30:00Z",
+      "staff": {
+        "id": 2,
+        "fullname": "Dermatologist B"
+      }
+    },
+    {
+      "id": 3,
+      "time_start": "13:00",
+      "time_end": "14:30",
+      "title": "Therapy Session",
+      "content": "Physical therapy for back pain relief.",
+      "is_important": false,
+      "price": 300000,
+      "deposit": 100000,
+      "name_customer": "Emily Davis",
+      "phone": "0912345678",
+      "is_done": false,
+      "authId": 3,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T13:00:00Z",
+      "update_at": "2024-10-18T13:45:00Z",
+      "staff": {
+        "id": 3,
+        "fullname": "Therapist C"
+      }
+    },
+    {
+      "id": 4,
+      "time_start": "15:00",
+      "time_end": "15:30",
+      "title": "Teeth Cleaning",
+      "content": "Routine teeth cleaning and check-up.",
+      "is_important": false,
+      "price": 250000,
+      "deposit": 0,
+      "name_customer": "James Wilson",
+      "phone": "0934567890",
+      "is_done": false,
+      "authId": 4,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T15:00:00Z",
+      "update_at": "2024-10-18T15:15:00Z",
+      "staff": {
+        "id": 4,
+        "fullname": "Dentist D"
+      }
+    },
+    {
+      "id": 5,
+      "time_start": "16:00",
+      "time_end": "17:00",
+      "title": "Massage Therapy",
+      "content": "Full body massage for relaxation.",
+      "is_important": true,
+      "price": 500000,
+      "deposit": 150000,
+      "name_customer": "Oliver Brown",
+      "phone": "0909876543",
+      "is_done": false,
+      "authId": 5,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T16:00:00Z",
+      "update_at": "2024-10-18T16:45:00Z",
+      "staff": {
+        "id": 5,
+        "fullname": "Masseur E"
+      }
+    },
+    {
+      "id": 6,
+      "time_start": "17:30",
+      "time_end": "18:00",
+      "title": "Manicure",
+      "content": "Manicure with nail art.",
+      "is_important": false,
+      "price": 120000,
+      "deposit": 30000,
+      "name_customer": "Sophia Harris",
+      "phone": "0911122233",
+      "is_done": false,
+      "authId": 6,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T17:30:00Z",
+      "update_at": "2024-10-18T17:45:00Z",
+      "staff": {
+        "id": 6,
+        "fullname": "Nail Technician F"
+      }
+    },
+    {
+      "id": 7,
+      "time_start": "18:30",
+      "time_end": "19:00",
+      "title": "Yoga Class",
+      "content": "Private yoga class focusing on flexibility.",
+      "is_important": false,
+      "price": 350000,
+      "deposit": 100000,
+      "name_customer": "Lucas Martin",
+      "phone": "0922334455",
+      "is_done": false,
+      "authId": 7,
+      "image_id": null,
+      "is_delete": false,
+      "create_at": "2024-10-18T18:30:00Z",
+      "update_at": "2024-10-18T18:45:00Z",
+      "staff": {
+        "id": 7,
+        "fullname": "Yoga Instructor G"
+      }
+    }
+  ],
+
+  "weekly": [
+  {
+    "date": "T2, 16/10",
+    "data": [
+      {
+        "id": 1,
+        "time_start": "08:00",
+        "time_end": "09:00",
+        "title": "Meeting with Client A",
+        "content": "Discuss project details.",
+        "is_important": true,
+        "price": 100000,
+        "deposit": 50000,
+        "name_customer": "Nguyen Van A",
+        "phone": "0901234567",
+        "is_done": false,
+        "authId": 1,
+        "staff_id": 1,
+        "image_id": 1,
+        "is_delete": false,
+        "create_at": "2024-10-16T09:00:00.000Z",
+        "update_at": "2024-10-16T09:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 1,
+        "time_start": "08:00",
+        "time_end": "09:00",
+        "title": "Meeting with Client A",
+        "content": "Discuss project details.",
+        "is_important": true,
+        "price": 100000,
+        "deposit": 50000,
+        "name_customer": "Nguyen Van A",
+        "phone": "0901234567",
+        "is_done": false,
+        "authId": 1,
+        "staff_id": 1,
+        "image_id": 1,
+        "is_delete": false,
+        "create_at": "2024-10-16T09:00:00.000Z",
+        "update_at": "2024-10-16T09:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 1,
+        "time_start": "08:00",
+        "time_end": "09:00",
+        "title": "Meeting with Client A",
+        "content": "Discuss project details.",
+        "is_important": false,
+        "price": 100000,
+        "deposit": 50000,
+        "name_customer": "Nguyen Van A",
+        "phone": "0901234567",
+        "is_done": false,
+        "authId": 1,
+        "staff_id": 1,
+        "image_id": 1,
+        "is_delete": false,
+        "create_at": "2024-10-16T09:00:00.000Z",
+        "update_at": "2024-10-16T09:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 1,
+        "time_start": "08:00",
+        "time_end": "09:00",
+        "title": "Meeting with Client A",
+        "content": "Discuss project details.",
+        "is_important": false,
+        "price": 100000,
+        "deposit": 50000,
+        "name_customer": "Nguyen Van A",
+        "phone": "0901234567",
+        "is_done": false,
+        "authId": 1,
+        "staff_id": 1,
+        "image_id": 1,
+        "is_delete": false,
+        "create_at": "2024-10-16T09:00:00.000Z",
+        "update_at": "2024-10-16T09:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      }
+    ]
+  },
+  {
+    "date": "T3, 17/10",
+    "data": [
+      {
+        "id": 2,
+        "time_start": "10:00",
+        "time_end": "11:00",
+        "title": "Haircut Appointment",
+        "content": "Regular haircut.",
+        "is_important": true,
+        "price": 200000,
+        "deposit": 100000,
+        "name_customer": "Tran Thi B",
+        "phone": "0912345678",
+        "is_done": false,
+        "authId": 2,
+        "staff_id": 1,
+        "image_id": 2,
+        "is_delete": false,
+        "create_at": "2024-10-17T10:00:00.000Z",
+        "update_at": "2024-10-17T10:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 3,
+        "time_start": "15:00",
+        "time_end": "16:00",
+        "title": "Nail Service",
+        "content": "Gel manicure.",
+        "is_important": false,
+        "price": 150000,
+        "deposit": 75000,
+        "name_customer": "Le Van C",
+        "phone": "0923456789",
+        "is_done": false,
+        "authId": 3,
+        "staff_id": 1,
+        "image_id": 3,
+        "is_delete": false,
+        "create_at": "2024-10-17T15:00:00.000Z",
+        "update_at": "2024-10-17T15:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      }
+    ]
+  },
+  {
+    "date": "T4, 18/10",
+    "data": [
+      {
+        "id": 4,
+        "time_start": "09:00",
+        "time_end": "10:00",
+        "title": "Facial Treatment",
+        "content": "Deep cleansing facial.",
+        "is_important": true,
+        "price": 300000,
+        "deposit": 150000,
+        "name_customer": "Nguyen Thi D",
+        "phone": "0934567890",
+        "is_done": false,
+        "authId": 4,
+        "staff_id": 1,
+        "image_id": 4,
+        "is_delete": false,
+        "create_at": "2024-10-18T09:00:00.000Z",
+        "update_at": "2024-10-18T09:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 5,
+        "time_start": "11:00",
+        "time_end": "12:00",
+        "title": "Massage Therapy",
+        "content": "Full body massage.",
+        "is_important": false,
+        "price": 500000,
+        "deposit": 250000,
+        "name_customer": "Pham Van E",
+        "phone": "0945678901",
+        "is_done": false,
+        "authId": 5,
+        "staff_id": 1,
+        "image_id": 5,
+        "is_delete": false,
+        "create_at": "2024-10-18T11:00:00.000Z",
+        "update_at": "2024-10-18T11:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      }
+    ]
+  },
+  {
+    "date": "T5, 19/10",
+    "data": [
+      {
+        "id": 6,
+        "time_start": "14:00",
+        "time_end": "15:00",
+        "title": "Coloring Session",
+        "content": "Hair coloring appointment.",
+        "is_important": true,
+        "price": 800000,
+        "deposit": 400000,
+        "name_customer": "Vo Thi F",
+        "phone": "0956789012",
+        "is_done": false,
+        "authId": 6,
+        "staff_id": 1,
+        "image_id": 6,
+        "is_delete": false,
+        "create_at": "2024-10-19T14:00:00.000Z",
+        "update_at": "2024-10-19T14:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 7,
+        "time_start": "16:00",
+        "time_end": "17:00",
+        "title": "Skin Consultation",
+        "content": "Consultation for skin treatment.",
+        "is_important": false,
+        "price": 250000,
+        "deposit": 125000,
+        "name_customer": "Nguyen Van G",
+        "phone": "0967890123",
+        "is_done": false,
+        "authId": 7,
+        "staff_id": 1,
+        "image_id": 7,
+        "is_delete": false,
+        "create_at": "2024-10-19T16:00:00.000Z",
+        "update_at": "2024-10-19T16:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      }
+    ]
+  },
+  {
+    "date": "T6, 20/10",
+    "data": [
+      {
+        "id": 8,
+        "time_start": "10:00",
+        "time_end": "11:00",
+        "title": "Bridal Makeup",
+        "content": "Makeup session for bride.",
+        "is_important": true,
+        "price": 600000,
+        "deposit": 300000,
+        "name_customer": "Pham Thi H",
+        "phone": "0978901234",
+        "is_done": false,
+        "authId": 8,
+        "staff_id": 1,
+        "image_id": 8,
+        "is_delete": false,
+        "create_at": "2024-10-20T10:00:00.000Z",
+        "update_at": "2024-10-20T10:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 9,
+        "time_start": "12:00",
+        "time_end": "13:00",
+        "title": "Spa Treatment",
+        "content": "Relaxing spa session.",
+        "is_important": false,
+        "price": 450000,
+        "deposit": 225000,
+        "name_customer": "Le Thi I",
+        "phone": "0989012345",
+        "is_done": false,
+        "authId": 9,
+        "staff_id": 1,
+        "image_id": 9,
+        "is_delete": false,
+        "create_at": "2024-10-20T12:00:00.000Z",
+        "update_at": "2024-10-20T12:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      },
+      {
+        "id": 10,
+        "time_start": "14:00",
+        "time_end": "15:00",
+        "title": "Consultation Session",
+        "content": "Consultation for hair care.",
+        "is_important": false,
+        "price": 200000,
+        "deposit": 100000,
+        "name_customer": "Tran Van J",
+        "phone": "0990123456",
+        "is_done": false,
+        "authId": 10,
+        "staff_id": 1,
+        "image_id": 10,
+        "is_delete": false,
+        "create_at": "2024-10-20T14:00:00.000Z",
+        "update_at": "2024-10-20T14:00:00.000Z",
+        "staff": {
+          "id": 1,
+          "fullname": "Huy"
+        }
+      }
+    ]
+  }
+]
+
+}
